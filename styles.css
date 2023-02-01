@@ -102,6 +102,8 @@
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   box-shadow: 25 25px 10px 10px #222;
+  background-color: #fcbc66;
+  transition: all 0.1s ease;
 }
 #sidebar .list-items li:first-child{
   border-top: none;
@@ -288,7 +290,7 @@ background-image: linear-gradient(
   background-size: 200% auto;
   color: rgb(251, 251, 251);
   background-clip: text;
-  text-fill-color: transparent;
+  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
@@ -343,7 +345,6 @@ div .header1{
 }
 html {
     height: 100%;
-}
 }
 
 
